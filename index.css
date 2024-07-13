@@ -161,6 +161,21 @@
         /* margin-top: 0px; */
     }
 
+    .hr-horizontal {
+        width: 105%; /* ширина линии */
+        height: 10px; /* высота линии */
+        background-color: black; /* цвет линии */
+        /* margin-top: -2px; */
+        margin-left: -20px;
+    }
+
+    .icons {
+        display: flex;
+        width: 80px; 
+        height: 36px; 
+        
+    }
+    
     .social {
         display: flex;
         justify-content:center;
@@ -168,14 +183,6 @@
         margin-left: 50%;
         gap: 10px; /* add a small gap between each pair */
         /* margin-left:38%; */
-    }
-
-    .hr-horizontal {
-        width: 105%; /* ширина линии */
-        height: 10px; /* высота линии */
-        background-color: black; /* цвет линии */
-        /* margin-top: -2px; */
-        margin-left: -20px;
     }
     
     .social-text {
