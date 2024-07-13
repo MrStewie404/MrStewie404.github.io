@@ -1,0 +1,194 @@
+.present {
+    display:inline-flex;
+    line-height: 15px;
+    /* width: 425px; */
+    margin-left: 8%;
+    width: 70svw;
+    /* height: 100px; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+.main-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 3%;
+    /* padding-bottom: 1%; */
+    padding-top: 5%;
+}
+
+.other-text {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 12%;
+    line-height: 10px;
+}
+
+.point-text {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.info {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+}
+
+.hr-vertical {
+    width: 1px; /* ширина линии */
+    height: 120px; /* высота линии */
+    background-color: black; /* цвет линии */
+}
+
+.hr-horizontal {
+    width: 120%; /* ширина линии */
+    height: 0px; /* высота линии */
+    background-color: black; /* цвет линии */
+    /* margin-top: -2px; */
+    margin-left: -20px;
+}
+
+.social {
+    display:grid;
+    scale: 80%;
+    /* max-width: 40px; */
+    width: 38px;
+    /* min-width: 15px; */
+    /* height: 70%; */
+    /* 100% для изображения, остальное для текста */
+    grid-template-columns: 100% 0px;
+    line-height: 0px;
+    gap: 5px;
+    /* margin-right: -70px; */
+    /* padding-right: 0px; */
+}
+
+.social-text {
+    /* scale: 100%; */
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    background-color: aqua;
+    background-size: 20px;
+    border-radius: 70%;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+.social-once-text {
+    display: none;
+}
+
+@media (max-width: 555px) {
+    .name {
+        /* display: flex; */
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: larger;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .info {
+        /* display: flex; */
+        justify-content: center;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: small;
+        font-style: normal;
+    }
+    
+    .photo {
+        display:ruby;
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 70%;
+        margin-top: 0%;
+        margin-right: 20px;
+        /* margin-top: 0px; */
+    }
+
+    .social {
+        display: flex;
+        justify-content:center;
+        font-optical-sizing: auto;
+        margin-left: 50%;
+        gap: 10px; /* add a small gap between each pair */
+        /* margin-left:38%; */
+    }
+
+    .hr-horizontal {
+        width: 120%; /* ширина линии */
+        height: 10px; /* высота линии */
+        background-color: black; /* цвет линии */
+        /* margin-top: -2px; */
+        margin-left: -20px;
+    }
+    
+    .social-text {
+        display: none;
+    }
+
+    .whoami {
+        display:inline-block;
+        /* margin-top: -20px; */
+    }
+
+    .present {
+        display:inline-table;
+        margin-left: 8%;
+        width: 70svw;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 20px;
+        /* justify-content: center; */
+    }
+    
+    .hr-vertical {
+        display: none;
+    }
+}
+  
+
+.brain {
+    /* background-color: rgb(86, 135, 109); */
+    /* background-position-y: top; */
+    display:block;
+    /* line-height: 15px; */
+    /* width: 425px; */
+    /* margin-left: 20%; */
+    /* width: 70svw; */
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+}
