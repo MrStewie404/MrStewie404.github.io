@@ -1,12 +1,8 @@
 .present {
-    display:inline-flex;
-    line-height: 15px;
-    /* width: 425px; */
-    margin-left: 8%;
-    width: 70svw;
-    /* height: 100px; */
+    display:flex;
+    line-height: 20px;
+    padding: 10px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .best-font{
@@ -15,29 +11,46 @@
     font-style: normal;
 }
 
-.name {
-    padding-top: 30px;
-}
-
 .main-text {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    padding-left: 3%;
-    /* padding-bottom: 1%; */
-    padding-top: 5%;
+    padding-left: 1%;
 }
 
 .second-font{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.skills {
+    border-radius: 20px;
+    margin: 0px 5px;
+}
+
+.meow{
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+    max-width: 600px;
+    background-color: black;
+}
+
+.test {
+    border-radius: 10px;
+    margin: 0px 5px;
 }
 
 .cells {
-    padding-left: 12%;
+    padding-left: 32px;
     line-height: 10px;
+    padding-bottom: 5px;
+}
+
+.name {
+    margin-top: 15px;
 }
 
 .point-text {
@@ -56,42 +69,17 @@
     font-style: normal;
 }
 
-.hr-vertical {
-    width: 1px; /* ширина линии */
-    height: 120px; /* высота линии */
-    background-color: black; /* цвет линии */
-}
-
-.hr-horizontal {
-    width: 120%; /* ширина линии */
-    height: 0px; /* высота линии */
-    background-color: black; /* цвет линии */
-    /* margin-top: -2px; */
-    margin-left: -20px;
+.a {
+    flex-shrink: 5;
 }
 
 .social {
-    display:grid;
-    scale: 80%;
-    /* max-width: 40px; */
-    width: 38px;
-    /* min-width: 15px; */
-    /* height: 70%; */
-    /* 100% для изображения, остальное для текста */
-    grid-template-columns: 100% 0px;
-    line-height: 0px;
+    display:inline-flex;
+    position: relative;
+    border-radius: 70px;
+    width: 30px;
+    margin-top: -10px;
     gap: 5px;
-    /* margin-right: -70px; */
-    /* padding-right: 0px; */
-}
-
-.social-text {
-    /* scale: 100%; */
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
 }
 
 .photo {
@@ -100,27 +88,20 @@
     overflow: hidden;
     border-radius: 70%;
     margin-right: 20px;
-    margin-top: 30px;
   }
 
-.social-once-text {
-    display: none;
-}
-
 .center-todo{
-    display: grid;
+    display: flex;
     justify-content: center;
 }
 
 .todo {
     background-color: rgb(255, 175, 175);
-    border-radius: 20px;
+    border-radius: 10px;
 
-    padding-top: 5px;
-    margin: 0 auto;
+    padding: 2px 0px;
+    margin: 3% auto;
     min-width: 300px;
-    width: 20%;
-    height: 140px;
 }
 .list{
     display:flexbox;
@@ -128,99 +109,10 @@
 }
 
 @media (max-width: 555px) {
-    .name {
-        /* display: flex; */
-        justify-content: center;
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        font-size: larger;
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-
-    .info {
-        /* display: flex; */
-        justify-content: center;
-        font-family: "Mulish", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-size: small;
-        font-style: normal;
-    }
-    
-    .photo {
-        display:ruby;
-        width: 80px;
-        height: 80px;
-        overflow: hidden;
-        border-radius: 70%;
-        margin-top: 0%;
-        margin-right: 20px;
-        /* margin-top: 0px; */
-    }
-
-    .hr-horizontal {
-        width: 105%; /* ширина линии */
-        height: 10px; /* высота линии */
-        background-color: black; /* цвет линии */
-        /* margin-top: -2px; */
-        margin-left: -20px;
-    }
-
-    .icons {
-        display: flex;
-        width: 80px; 
-        height: 36px; 
-        
-    }
-    
-    .social {
-        display: flex;
-        justify-content:center;
-        font-optical-sizing: auto;
-        margin-left: 50%;
-        gap: 10px; /* add a small gap between each pair */
-        /* margin-left:38%; */
-    }
-    
-    .social-text {
-        display: none;
-    }
-
-    .whoami {
-        display:inline-block;
-        /* margin-top: -20px; */
-    }
-
-    .present {
-        display:inline-table;
-        margin-left: 8%;
-        width: 70svw;
-        margin-left: 20px;
-        margin-right: 0px;
-        margin-top: 20px;
-        /* justify-content: center; */
-    }
-    
-    .hr-vertical {
-        display: none;
-    }
 }
   
-
 .brain {
-    /* background-color: rgb(86, 135, 109); */
-    /* background-position-y: top; */
-    display:block;
-    /* line-height: 15px; */
-    /* width: 425px; */
-    /* margin-left: 20%; */
-    /* width: 70svw; */
-    margin-top: -20px;
-    margin-bottom: 100px;
+    display:flex;
     justify-content: center;
-    align-items: center;
-    /* height: 100px; */
+    min-width: 300px;
 }

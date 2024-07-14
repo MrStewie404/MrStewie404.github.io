@@ -1,0 +1,16 @@
+.present {
+    display: inline-flex;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 70%;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+.whoami{
+    /* display: inline-block; */
+}
