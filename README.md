@@ -5,4 +5,4 @@
 
 ## Превью:
 <img width="1674" alt="Снимок экрана 2024-07-15 в 03 35 03" src="https://github.com/user-attachments/assets/74ad0392-3173-4e38-ba50-de233f01800f">
-_ссылка github вёдёт на мой профиль_
+ссылка github вёдёт на мой профиль
