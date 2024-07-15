@@ -1,14 +1,8 @@
-.present {
-    display:flex;
-    line-height: 20px;
-    /* padding: 2px; */
-    justify-content: center;
-}
-
 .best-font{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-style: normal;
+    
 }
 
 .main-text {
@@ -25,9 +19,60 @@
     font-size: 14px;
 }
 
+
+
+
+.present {
+    display:flex;
+    line-height: 20px;
+    justify-content: center;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 70%;
+    margin-right: 20px;
+  }
+
+.name {
+    margin: 30px 0px;
+}
+
 .skills {
     border-radius: 20px;
     margin: 0px 5px;
+}
+
+.block {
+    background-color: rgb(255, 175, 175);
+    border-radius: 10px;
+
+    padding: 1px 0px;
+    margin: 3% auto;
+    min-width: 200px;
+}
+
+p {
+    padding: 0px 20px;
+}
+
+.block-title{
+    display: flex;
+    justify-content: center;
+}
+
+.block-info{
+    display:flexbox;
+    line-height: 5px;
+    /* padding: 0px 20px; */
+}
+  
+.brain {
+    display:flex;
+    justify-content: center;
+    /* min-width: 300px; */
 }
 
 .meow{
@@ -39,39 +84,14 @@
     box-shadow: 10px;
 }
 
-.test {
-    border-radius: 10px;
-    margin: 0px 5px;
-}
-
-.cells {
-    padding-left: 32px;
-    line-height: 10px;
-    padding-bottom: 5px;
-}
-
-.name {
-    margin: 30px 0px;
-}
-
-.point-text {
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.info {
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-size: large;
-    font-style: normal;
-}
-
-a {
-    flex-shrink: 5;
+.social {
+    display:flex;
+    width: 30px;
+    /* gap: 10px; */
+    justify-content: center;
+    /* align-content: center; */
+    /* https://isotropic.co/tool/hex-color-to-css-filter/ */
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
 }
 
 article {
@@ -86,9 +106,8 @@ footer {
     /* padding: 1px; */
     background-color: #0AFE33;
   }
-  
+
 .social-text {
-    /* scale: 100%; */
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -96,58 +115,52 @@ footer {
     font-size: 20px;
 }
 
-.social {
-    display:flex;
-    /* margin-left: -350px; */
-    /* border-radius: 70px; */
-    width: 20px;
-    /* margin-left: -50px; */
-    gap: 10px;
-    justify-content: center;
-    align-content: center;
-    /* https://isotropic.co/tool/hex-color-to-css-filter/ */
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
+@media (max-width: 600px) {
+    .brain {
+        display:block;
+        justify-content: center;
+        margin: 10px auto;
+        /* min-width: 300px; */
+    }
+
+    .block {
+        margin: 4% auto;
+    } 
+
+    .meow{
+        max-width: 90%;
+    }
 }
 
-.hr-vertical{
-    /* display: flex; */
-    height: 20px;
-    color: #000;
-    /* gap: 30px; */
-    /* justify-content: center; */
-}
+@media (max-width: 370px) {
+    .photo {
+        display: none;
+      }
 
-.photo {
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    border-radius: 70%;
-    margin-right: 20px;
-  }
+    .present {
+        margin: 30px auto;
+        max-width: 140px;
+        min-width: 120px;
+        box-shadow: 0px 0px 0px 6px #F902FA;
+        border-radius: 2.5px;
+    }
 
-.center-todo{
-    display: flex;
-    justify-content: center;
-}
+    .name {
+        margin: 10px;
+        line-height: 25px;
+        width: 100%;
+    }
 
-.todo {
-    background-color: rgb(255, 175, 175);
-    border-radius: 10px;
+    .block {
+        background-color: rgb(255, 175, 175);
+        border-radius: 5px;
+    
+        padding: 1px 10px;
+        margin: 3% 1px;
+        min-width: 200px;
+    }
 
-    padding: 2px 0px;
-    margin: 3% auto;
-    min-width: 300px;
-}
-.list{
-    display:flexbox;
-    line-height: 5px;
-}
-
-@media (max-width: 555px) {
-}
-  
-.brain {
-    display:flex;
-    justify-content: center;
-    min-width: 300px;
+    p {
+        padding: 0px 5px;
+    }
 }
