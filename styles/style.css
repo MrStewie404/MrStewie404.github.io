@@ -139,31 +139,17 @@ footer {
     .brain {
         display:block;
         justify-content: center;
-        margin: 10px auto;
+        margin: 5px auto;
         /* min-width: 300px; */
     }
 
     .block {
-        margin: 2% 40px;
+        margin: 2% 20px;
     } 
 
     .meow{
-        max-width: 450px;
+        max-width: 350px;
     }
-
-    .container {
-        position: relative; /* Делаем контейнер точкой отсчета */
-        width: 100%;
-        /* height: 10vh; Высота на весь экран */
-      }
-
-    .fixed-element {
-        position: absolute;
-        margin-top: 13%;
-        /* height: 200px; */
-        top: 0; /* Верхний край элемента прижат к верхнему краю контейнера */
-        right: 0; /* Правый край элемента прижат к правому краю контейнера */
-      }
 }
 
 @media (max-width: 370px) {
