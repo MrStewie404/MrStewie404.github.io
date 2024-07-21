@@ -83,7 +83,7 @@ p {
     padding: 10px;
     width: 80%;
     max-width: 600px;
-    background-color: #00000076;    
+    /* background-color: #00000076;     */
     transition: 0.2s ease-in-out;
     box-shadow: inset 0px 0px 100px 20px #F902FA;
     
@@ -200,9 +200,14 @@ footer {
         min-width: 100px;
     } */
 
-    /* .player{
-        max-width: 350px;
-    } */
+    .player{
+        transition: none;
+        box-shadow: inset 0px 0px 100px 20px #F902FA;    
+    }
+
+    .player:hover{
+        box-shadow: inset 0px 0px 100px 20px #F902FA;    
+    }
 
     .block {
         /* margin: 5px; */
