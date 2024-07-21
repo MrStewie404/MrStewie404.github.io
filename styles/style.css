@@ -1,37 +1,12 @@
 .best-font{
-    /* font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-style: normal; */
     font-family: silkscreen;
 
     
 }
 
 
-.pixel-font {
-    font-family: PixelFont;
-}
-
 .bmcube-font {
     font-family: bmcube;
-}
-
-.main-text {
-    font-family: PixelFont;
-
-    /* font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 20px;
-    padding-left: 1%; */
-}
-
-.second-font{
-    font-family: PixelFont;
-
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    font-size: 14px; */
 }
 
 
@@ -65,11 +40,15 @@ h1 {
 
 .block {
     background-color: rgb(255, 175, 175);
-    /* border-radius: 10px; */
-
     padding: 1px 0px;
     margin: 3% auto;
     min-width: 200px;
+    transition: 0.2s ease-in-out;
+}
+
+.block:hover{
+    /* transform: scale(1.2); */
+    box-shadow: inset 0px 0px 0px 6px #F902FA;
 }
 
 p {
@@ -96,13 +75,22 @@ p {
     /* min-width: 300px; */
 }
 
-.meow{
+.player{
+    /* filter: blur(2px); */
     display: block;
-    margin: 0px auto;
-    border-radius: 20px;
+    margin: 50px auto;
+    /* border-radius: 20px; */
+    padding: 10px;
+    width: 80%;
     max-width: 600px;
-    background-color: black;
-    box-shadow: 10px;
+    background-color: #00000076;    
+    transition: 0.2s ease-in-out;
+    box-shadow: inset 0px 0px 100px 20px #F902FA;
+    
+}
+
+.player:hover{
+    box-shadow: inset 0px 0px 20px 10px #0AFE33;   
 }
 
 .social {
@@ -165,8 +153,19 @@ footer {
         margin: 2% 20px;
     } 
 
-    .meow{
-        max-width: 350px;
+    .block:hover{
+        /* transform: scale(1.2); */
+        box-shadow: none;
+    }
+
+    .player{
+        max-width: 90%;
+        box-shadow: inset 0px 0px 100px 10px #F902FA;
+
+    }
+
+    .player:hover{
+        box-shadow: none
     }
 
     .container {
@@ -188,26 +187,30 @@ footer {
         border-radius: 2.5px;
     } */
 
-    .name {
+    /* .name {
         margin: 10px;
         line-height: 25px;
         width: 100%;
-    }
+    } */
 
-    .block {
+    /* .block {
         background-color: rgb(255, 175, 175);
-        /* border-radius: 5px; */
-    
         padding: 1px 5px;
         margin: 3% 1px;
         min-width: 100px;
-    }
+    } */
 
-    .meow{
+    /* .player{
         max-width: 350px;
+    } */
+
+    .block {
+        /* margin: 5px; */
+        padding: 1px;
     }
 
     p {
-        padding: 0px 5px;
+        margin: 5px;
+        padding: 1px 10px;
     }
 }
